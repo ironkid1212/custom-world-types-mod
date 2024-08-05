@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "customworldtypes",
+  "version": "1.0.0",
+  "name": "Custom World Types",
+  "description": "Mod to create custom world types with datapacks",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "sources": "https://github.com/yourname/customworldtypes"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.customworldtypes.CustomWorldTypesMod"
+    ],
+    "client": [
+      "com.example.customworldtypes.CustomWorldTypesModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
