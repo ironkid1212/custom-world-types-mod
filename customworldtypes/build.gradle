@@ -1,0 +1,15 @@
+plugins {
+    id 'fabric-loom' version '0.11-SNAPSHOT'
+}
+
+repositories {
+    mavenCentral()
+    maven { url = "https://maven.fabricmc.net/" }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:1.18.2"
+    mappings "net.fabricmc:yarn:1.18.2+build.5:v2"
+    modImplementation "net.fabricmc:fabric-loader:0.13.3"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.45.0+1.18.2"
+}
